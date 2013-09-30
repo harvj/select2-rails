@@ -2,6 +2,7 @@
 Copyright 2012 Igor Vaynberg
 
 Version: 3.4.3 Timestamp: Tue Sep 17 06:47:14 PDT 2013
+Forked 9/30/2013 Jim Harvey, Paydici Inc.
 
 This software is licensed under the Apache License, Version 2.0 (the "Apache License") or the GNU
 General Public License version 2 (the "GPL License"). You may choose either license to govern your
@@ -18,6 +19,7 @@ Apache License or the GPL Licesnse is distributed on an "AS IS" BASIS, WITHOUT W
 CONDITIONS OF ANY KIND, either express or implied. See the Apache License and the GPL License for
 the specific language governing permissions and limitations under the Apache License and the GPL License.
 */
+;
 (function ($) {
     if(typeof $.fn.each2 == "undefined") {
         $.extend($.fn, {
